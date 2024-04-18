@@ -1,5 +1,5 @@
 const path = require("path");
-// const HTMLWebpackPlugin = require("html-webpack-plugin"); 
+const HTMLWebpackPlugin = require("html-webpack-plugin"); 
 
 module.exports ={
     mode: process.env.NODE_ENV,
@@ -29,6 +29,8 @@ module.exports ={
           },
         ],
       },
+      devServer: {
+        port: 8084,
+    },
     
-      
 }

@@ -9,6 +9,6 @@ const domNode = document.getElementById('root');
 const root = createRoot (domNode);
 
 root.render(
-    <div> This will be my perosnal page </div>
+    <div> This is my personal website </div>
   );
   
